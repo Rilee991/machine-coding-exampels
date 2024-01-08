@@ -1,10 +1,12 @@
 import React from 'react';
-import Timer from './countdowntimer/Timer';
+// import Timer from './countdowntimer/Timer';
+import Pagination from './pagination/Pagination';
 
 const App = () => {
-    return (
+	return (
       <div>
-		  <Timer />
+		  {/* <Timer /> */}
+		  <Pagination />
 	  </div>
     );
 }
