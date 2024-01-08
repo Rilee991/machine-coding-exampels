@@ -1,8 +1,11 @@
 import React from 'react';
+import Timer from './countdowntimer/Timer';
 
 const App = () => {
     return (
-      <div>App</div>
+      <div>
+		  <Timer />
+	  </div>
     );
 }
 
