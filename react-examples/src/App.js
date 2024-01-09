@@ -1,13 +1,13 @@
 import React from 'react';
+import EmiCalculator from './emicalculator/EmiCalculator';
 // import Timer from './countdowntimer/Timer';
-import Pagination from './pagination/Pagination';
+// import Pagination from './pagination/Pagination';
 
 const App = () => {
 	return (
-      <div>
-		  {/* <Timer /> */}
-		  <Pagination />
-	  </div>
+		// {/* <Timer /> */}
+		// {/* <Pagination /> */}
+		<EmiCalculator />
     );
 }
 

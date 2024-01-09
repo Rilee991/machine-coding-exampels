@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    font-family: emoji;
+}
+
+.container__heading {
+    font-size: xx-large;
+    font-weight: 600;
+    font-style: italic;
+}
+
+input::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.error {
+    color: red;
+}
+
+.tenureContainer {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    min-width: 50px;
+}
+
+.selected {
+    background: rgb(154, 154, 222);
+}
