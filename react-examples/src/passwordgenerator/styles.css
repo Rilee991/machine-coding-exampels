@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    width: max-content;
+    background: #1E1E24;
+    color: white;
+    height: 240px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.labels__extreme {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.input__range {
+    width: 100%;
+    cursor: pointer;
+}
+
+button {
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #247372;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.checkboxes {
+    display: flex;
+    font-weight: bold;
+    gap: 10px;
+}
