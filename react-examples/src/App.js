@@ -1,5 +1,6 @@
 import React from 'react';
-import PasswordGenerator from './passwordgenerator/PasswordGenerator';
+// import PasswordGenerator from './passwordgenerator/PasswordGenerator';
+import ProgressBarApp from './progressbar/ProgressBarApp';
 // import EmiCalculator from './emicalculator/EmiCalculator';
 // import Timer from './countdowntimer/Timer';
 // import Pagination from './pagination/Pagination';
@@ -9,7 +10,8 @@ const App = () => {
 		// {/* <Timer /> */}
 		// {/* <Pagination /> */}
 		// <EmiCalculator />
-		<PasswordGenerator />
+		// <PasswordGenerator />
+		<ProgressBarApp />
     );
 }
 
