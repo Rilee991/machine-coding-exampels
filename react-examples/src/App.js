@@ -1,5 +1,6 @@
 import React from 'react';
-import GridLight from './gridlights/GridLight';
+import Calculator from './custom-usememo/Calculator';
+// import GridLight from './gridlights/GridLight';
 // import LRUCache from './lrucache/LRUCache';
 // import PasswordGenerator from './passwordgenerator/PasswordGenerator';
 // import ProgressBarApp from './progressbar/ProgressBarApp';
@@ -15,7 +16,8 @@ const App = () => {
 		// <PasswordGenerator />
 		// <ProgressBarApp />
 		// <LRUCache />
-		<GridLight />
+		// <GridLight />
+		<Calculator />
     );
 }
 
