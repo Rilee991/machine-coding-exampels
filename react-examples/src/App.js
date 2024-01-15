@@ -1,5 +1,6 @@
 import React from 'react';
-import LRUCache from './lrucache/LRUCache';
+import GridLight from './gridlights/GridLight';
+// import LRUCache from './lrucache/LRUCache';
 // import PasswordGenerator from './passwordgenerator/PasswordGenerator';
 // import ProgressBarApp from './progressbar/ProgressBarApp';
 // import EmiCalculator from './emicalculator/EmiCalculator';
@@ -13,7 +14,8 @@ const App = () => {
 		// <EmiCalculator />
 		// <PasswordGenerator />
 		// <ProgressBarApp />
-		<LRUCache />
+		// <LRUCache />
+		<GridLight />
     );
 }
 
