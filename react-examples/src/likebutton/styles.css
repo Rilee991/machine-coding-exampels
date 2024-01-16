@@ -1,0 +1,38 @@
+:root {
+    --defc: #888;
+    --hc: #f00;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 800;
+    flex-direction: column;
+}
+
+.btn {
+    /* padding: 20px; */
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--defc);
+    border: 2px solid var(--defc);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    border-radius: 23px;
+    background-color: white;
+}
+
+.btn:hover {
+    border-color: var(--hc);
+    color: var(--hc);
+}
+
+.liked, .liked:hover {
+    background-color: var(--hc);
+    color: white;
+}

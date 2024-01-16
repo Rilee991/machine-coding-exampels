@@ -1,5 +1,6 @@
 import React from 'react';
-import Calculator from './custom-usememo/Calculator';
+// import Calculator from './custom-usememo/Calculator';
+import LikeButton from './likebutton/LikeButton';
 // import GridLight from './gridlights/GridLight';
 // import LRUCache from './lrucache/LRUCache';
 // import PasswordGenerator from './passwordgenerator/PasswordGenerator';
@@ -17,7 +18,8 @@ const App = () => {
 		// <ProgressBarApp />
 		// <LRUCache />
 		// <GridLight />
-		<Calculator />
+		// <Calculator />
+		<LikeButton />
     );
 }
 
