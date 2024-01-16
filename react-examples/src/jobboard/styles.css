@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 246, 232);
+    height: 100%;
+}
+
+h2 {
+    color: darkgoldenrod;
+}
+
+.jobslist {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 20px;
+    max-width: 600px;
+}
+
+.job {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.jobtitle {
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.jobbyinfo {
+    color: gray;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
