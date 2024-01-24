@@ -1,5 +1,6 @@
 import React from 'react';
-import JobBoard from './jobboard/JobBoard';
+import CustomUseEffect from './custom-useeffect/CustomUseEffect';
+// import JobBoard from './jobboard/JobBoard';
 // import Calculator from './custom-usememo/Calculator';
 // import LikeButton from './likebutton/LikeButton';
 // import GridLight from './gridlights/GridLight';
@@ -21,7 +22,8 @@ const App = () => {
 		// <GridLight />
 		// <Calculator />
 		// <LikeButton />
-		<JobBoard />
+		// <JobBoard />
+		<CustomUseEffect />
     );
 }
 
