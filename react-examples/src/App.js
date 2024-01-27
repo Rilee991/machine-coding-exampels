@@ -1,5 +1,6 @@
 import React from 'react';
-import CustomUseEffect from './custom-useeffect/CustomUseEffect';
+// import CustomUseEffect from './custom-useeffect/CustomUseEffect';
+import InfiniteScroll from './infinitescroller/InfiniteScroll';
 // import JobBoard from './jobboard/JobBoard';
 // import Calculator from './custom-usememo/Calculator';
 // import LikeButton from './likebutton/LikeButton';
@@ -23,7 +24,8 @@ const App = () => {
 		// <Calculator />
 		// <LikeButton />
 		// <JobBoard />
-		<CustomUseEffect />
+		// <CustomUseEffect />
+		<InfiniteScroll />
     );
 }
 
