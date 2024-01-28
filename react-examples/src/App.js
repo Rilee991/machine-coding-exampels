@@ -1,6 +1,7 @@
 import React from 'react';
+import HolyGrail from './holygrail/HolyGrail';
 // import CustomUseEffect from './custom-useeffect/CustomUseEffect';
-import InfiniteScroll from './infinitescroller/InfiniteScroll';
+// import InfiniteScroll from './infinitescroller/InfiniteScroll';
 // import JobBoard from './jobboard/JobBoard';
 // import Calculator from './custom-usememo/Calculator';
 // import LikeButton from './likebutton/LikeButton';
@@ -25,7 +26,8 @@ const App = () => {
 		// <LikeButton />
 		// <JobBoard />
 		// <CustomUseEffect />
-		<InfiniteScroll />
+		// <InfiniteScroll />
+		<HolyGrail />
     );
 }
 

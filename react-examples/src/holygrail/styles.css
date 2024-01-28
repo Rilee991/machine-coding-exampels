@@ -1,0 +1,44 @@
+:root {
+    --siderbar-width: 100px;
+}
+
+.container {
+    display: grid;
+    grid: auto 1fr auto/var(--siderbar-width) 1fr var(--siderbar-width);
+    height: 100vh;
+}
+.common {
+    padding: 10px;
+    border-radius: 5px;
+}
+.header {
+    background-color: bisque;
+    grid-column: 1/4; /*takes total columns (1 to 4)*/
+}
+.leftnav {
+    background-color: rgb(201, 118, 17);
+    grid-column: 1/2;
+}
+.content {
+    background-color: rgb(29, 177, 63);
+    grid-column: 2/3;
+    
+}
+.rightnav {
+    background-color: rgb(95, 79, 58);
+    grid-column: 3/4;
+}
+.footer {
+    background-color: rgb(22, 137, 172);
+    grid-column: 1/4;
+}
+
+@media (max-width: 750px) {
+    .container {
+        grid: repeat(5, 1fr) / 1fr;
+    }
+
+    .common {
+        grid-column: 1 / 2;
+    }
+}
