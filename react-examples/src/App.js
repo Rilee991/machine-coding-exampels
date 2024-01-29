@@ -1,5 +1,6 @@
 import React from 'react';
-import HolyGrail from './holygrail/HolyGrail';
+import StopWatch from './stopwatch/StopWatch';
+// import HolyGrail from './holygrail/HolyGrail';
 // import CustomUseEffect from './custom-useeffect/CustomUseEffect';
 // import InfiniteScroll from './infinitescroller/InfiniteScroll';
 // import JobBoard from './jobboard/JobBoard';
@@ -27,7 +28,8 @@ const App = () => {
 		// <JobBoard />
 		// <CustomUseEffect />
 		// <InfiniteScroll />
-		<HolyGrail />
+		// <HolyGrail />
+		<StopWatch />
     );
 }
 
