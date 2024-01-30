@@ -1,5 +1,6 @@
 import React from 'react';
-import StopWatch from './stopwatch/StopWatch';
+import ProgressBar from './progressbar2/ProgressBar';
+// import StopWatch from './stopwatch/StopWatch';
 // import HolyGrail from './holygrail/HolyGrail';
 // import CustomUseEffect from './custom-useeffect/CustomUseEffect';
 // import InfiniteScroll from './infinitescroller/InfiniteScroll';
@@ -29,7 +30,8 @@ const App = () => {
 		// <CustomUseEffect />
 		// <InfiniteScroll />
 		// <HolyGrail />
-		<StopWatch />
+		// <StopWatch />
+		<ProgressBar />
     );
 }
 
