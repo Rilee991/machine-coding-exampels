@@ -1,0 +1,44 @@
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list_container {
+    width: 300px;
+}
+
+.item {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item:hover {
+    background-color: rgb(118, 109, 109);
+}
+
+ul {
+    margin-top: 5px;
+    padding: 0;
+    list-style: none;
+}
+
+.active {
+    background-color: rgb(174, 35, 35);
+}

@@ -1,5 +1,6 @@
 import React from 'react';
-import TimerApp from './countdowntimer2/TimerApp';
+import AutoComplete from './autocomplete/AutoComplete';
+// import TimerApp from './countdowntimer2/TimerApp';
 // import ProgressBar from './progressbar3/ProgressBar';
 // import ProgressBar from './progressbar2/ProgressBar';
 // import StopWatch from './stopwatch/StopWatch';
@@ -35,7 +36,8 @@ const App = () => {
 		// <StopWatch />
 		// <ProgressBar />
 		// <ProgressBar />
-		<TimerApp />
+		// <TimerApp />
+		<AutoComplete />
     );
 }
 
