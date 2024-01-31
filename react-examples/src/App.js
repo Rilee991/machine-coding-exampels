@@ -1,5 +1,6 @@
 import React from 'react';
-import ProgressBar from './progressbar3/ProgressBar';
+import TimerApp from './countdowntimer2/TimerApp';
+// import ProgressBar from './progressbar3/ProgressBar';
 // import ProgressBar from './progressbar2/ProgressBar';
 // import StopWatch from './stopwatch/StopWatch';
 // import HolyGrail from './holygrail/HolyGrail';
@@ -33,7 +34,8 @@ const App = () => {
 		// <HolyGrail />
 		// <StopWatch />
 		// <ProgressBar />
-		<ProgressBar />
+		// <ProgressBar />
+		<TimerApp />
     );
 }
 
