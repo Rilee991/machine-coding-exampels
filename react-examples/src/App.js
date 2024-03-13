@@ -1,5 +1,6 @@
 import React from 'react';
-import AutoComplete from './autocomplete/AutoComplete';
+// import AutoComplete from './autocomplete/AutoComplete';
+import InterceptorDemo from './axiosinterceptor/InterceptorDemo';
 // import TimerApp from './countdowntimer2/TimerApp';
 // import ProgressBar from './progressbar3/ProgressBar';
 // import ProgressBar from './progressbar2/ProgressBar';
@@ -17,6 +18,7 @@ import AutoComplete from './autocomplete/AutoComplete';
 // import EmiCalculator from './emicalculator/EmiCalculator';
 // import Timer from './countdowntimer/Timer';
 // import Pagination from './pagination/Pagination';
+
 
 const App = () => {
 	return (
@@ -37,7 +39,8 @@ const App = () => {
 		// <ProgressBar />
 		// <ProgressBar />
 		// <TimerApp />
-		<AutoComplete />
+		// <AutoComplete />
+		<InterceptorDemo />
     );
 }
 
