@@ -8,8 +8,12 @@
     "@testing-library/user-event": "^13.5.0",
     "await-to-js": "^3.0.0",
     "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-editor": "^1.4.0",
+    "react-bootstrap-table2-paginator": "^2.1.2",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
