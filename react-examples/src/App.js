@@ -1,5 +1,6 @@
 import React from 'react';
-import GridComponent from './gridcomponent/GridComponent';
+// import GridComponent from './gridcomponent/GridComponent';
+import NivoBar from './nivobar/NivoBar';
 // import AutoComplete from './autocomplete/AutoComplete';
 // import InterceptorDemo from './axiosinterceptor/InterceptorDemo';
 // import TimerApp from './countdowntimer2/TimerApp';
@@ -42,7 +43,8 @@ const App = () => {
 		// <TimerApp />
 		// <AutoComplete />
 		// <InterceptorDemo />
-		<GridComponent />
+		// <GridComponent />
+		<NivoBar />
     );
 }
 
