@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import GridComponent from './gridcomponent/GridComponent';
-import NivoBar from './nivobar/NivoBar';
+// import NivoBar from './nivobar/NivoBar';
+import Sidebar from './Sidebar/Sidebar';
+import Timer from './Timer/Timer';
 // import AutoComplete from './autocomplete/AutoComplete';
 // import InterceptorDemo from './axiosinterceptor/InterceptorDemo';
 // import TimerApp from './countdowntimer2/TimerApp';
@@ -23,6 +25,16 @@ import NivoBar from './nivobar/NivoBar';
 
 
 const App = () => {
+	const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+	const [isSidebarToggle, setIsSidebarToggle] = useState(true);
+	const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(true);
+
+	// navItems: [],
+	// selectedItem: -1,
+	// isSidebarOpen: true,
+	// isSidebarToggle: true,
+	// isSidebarCollapsed: true
+
 	return (
 		// {/* <Timer /> */}
 		// {/* <Pagination /> */}
@@ -44,7 +56,15 @@ const App = () => {
 		// <AutoComplete />
 		// <InterceptorDemo />
 		// <GridComponent />
-		<NivoBar />
+		// <NivoBar />
+		// <div style={{ display: "flex", gap: "4px" }}>
+		// 	<Sidebar open={isSidebarOpen} isCollapsed={isSidebarCollapsed} />
+		// 	<div>Content</div>
+		// 	<button style={{ height: "30px"}} onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Toggle Open/Close</button>
+		// 	<button style={{ height: "30px"}} onClick={() => setIsSidebarCollapsed(false)}>Expand</button>
+		// 	<button style={{ height: "30px"}} onClick={() => setIsSidebarCollapsed(true)}>Collapse</button>
+		// </div>
+		<Timer />
     );
 }
 
