@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Navigate, Route, Routes as Switch, useNavigate, useLocation } from 'react-router-dom';
-import Main from './amazon-connect-example/Main';
+// import Main from './amazon-connect-example/Main';
+import TimerPractice1 from './Timer/TimerPractice1/TimerPractice1';
+import TimerPractice2 from './Timer/TimerPractice2/TimerPractice2';
 // import WindowSim from './amazon-connect-example/WindowSim';
 // import ProgramCall from './amazon-connect-example/ProgramCall';
 // import Autodial from './amazon-connect-example/Autodial';
@@ -73,7 +75,9 @@ const App = () => {
 		// <WindowSim />
 		// <ProgramCall />
 		// <Autodial />
-		<Main />
+		// <Main />
+		// <TimerPractice1 />
+		<TimerPractice2 />
     );
 }
 
