@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
+import { BrowserRouter, Navigate, Route, Routes as Switch, useNavigate, useLocation } from 'react-router-dom';
+import Main from './amazon-connect-example/Main';
+// import WindowSim from './amazon-connect-example/WindowSim';
+// import ProgramCall from './amazon-connect-example/ProgramCall';
+// import Autodial from './amazon-connect-example/Autodial';
 // import GridComponent from './gridcomponent/GridComponent';
 // import NivoBar from './nivobar/NivoBar';
-import Sidebar from './Sidebar/Sidebar';
-import Timer from './Timer/Timer';
+// import Sidebar from './Sidebar/Sidebar';
+// import Timer from './Timer/Timer';
 // import AutoComplete from './autocomplete/AutoComplete';
 // import InterceptorDemo from './axiosinterceptor/InterceptorDemo';
 // import TimerApp from './countdowntimer2/TimerApp';
@@ -64,7 +69,11 @@ const App = () => {
 		// 	<button style={{ height: "30px"}} onClick={() => setIsSidebarCollapsed(false)}>Expand</button>
 		// 	<button style={{ height: "30px"}} onClick={() => setIsSidebarCollapsed(true)}>Collapse</button>
 		// </div>
-		<Timer />
+		// <Timer />
+		// <WindowSim />
+		// <ProgramCall />
+		// <Autodial />
+		<Main />
     );
 }
 
